@@ -1,0 +1,17 @@
+.main__chatbody {
+    flex-grow: 1;
+    padding: 1px 5px;
+    display: flex;
+  }
+  @media (max-width: 1000px) {
+    .main__chatbody {
+       display: flex;
+       flex-direction: column;
+     }
+   }
+   
+   @media (max-width: 600px) {
+    .main__chatbody {
+       height: 100%;
+     }
+   }

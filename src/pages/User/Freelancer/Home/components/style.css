@@ -1,0 +1,6 @@
+.left-side,
+.right-side {
+	@apply flex flex-col w-1/4 bg-white shadow-sm rounded-lg shadow-gray-300;
+}
+.main-content {
+}
